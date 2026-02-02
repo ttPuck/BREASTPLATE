@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://b5xm7k8vn2pqr"]
+
+[ext_resource type="Script" path="res://scenes/game_world/game_world.gd" id="1_gameworld_script"]
+
+[node name="GameWorld" type="Node2D"]
+script = ExtResource("1_gameworld_script")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="DebugLabel" type="Label" parent="CanvasLayer"]
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 400.0
+offset_bottom = 100.0
+text = "BREASTPLATE - Phase 1 Test
+WASD to move
+Your player is colored (red=host, blue=client)"
